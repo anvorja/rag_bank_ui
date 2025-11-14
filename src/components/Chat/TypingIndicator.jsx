@@ -1,4 +1,4 @@
-// components/Chat/TypingIndicator.jsx
+// src/components/Chat/TypingIndicator.jsx
 import React from 'react'
 import GlassCard from '../UI/GlassCard'
 

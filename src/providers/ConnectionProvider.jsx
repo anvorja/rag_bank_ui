@@ -1,4 +1,4 @@
-// providers/ConnectionProvider.jsx
+// src/providers/ConnectionProvider.jsx
 import React, { useReducer, useCallback, useEffect } from 'react';
 import ConnectionContext from '../contexts/ConnectionContext';
 import { healthCheck } from '../utils/api';

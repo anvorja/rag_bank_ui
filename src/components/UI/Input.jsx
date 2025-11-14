@@ -1,4 +1,4 @@
-// components/UI/Input.jsx
+// src/components/UI/Input.jsx
 import React from 'react'
 
 export const Input = ({

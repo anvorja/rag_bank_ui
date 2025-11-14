@@ -1,4 +1,4 @@
-// components/Layout/Header.jsx
+// src/components/Layout/Header.jsx
 import React from 'react'
 import ConnectionStatus from './ConnectionStatus'
 

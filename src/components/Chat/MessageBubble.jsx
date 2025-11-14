@@ -1,44 +1,4 @@
-// // components/Chat/MessageBubble.jsx
-// import React from 'react'
-// import { formatTime } from '../../utils/formatters'
-// import GlassCard from '../UI/GlassCard'
-//
-// export const MessageBubble = ({ message }) => {
-//   const { text, isUser, timestamp, isError } = message
-//
-//   const bubbleClasses = isUser
-//     ? 'bg-gradient-135deg from-blue-400/40 to-purple-500/40 border-blue-400/30'
-//     : isError
-//     ? 'bg-red-500/20 border-red-400/30'
-//     : 'bg-white/20 border-white/30'
-//
-//   return (
-//     <div className={`flex ${isUser ? 'justify-end' : 'justify-start'}`}>
-//       <div className="max-w-full sm:max-w-[85%]">
-//         <GlassCard
-//           className={`p-4 ${bubbleClasses} transition-all duration-200 hover:translate-y-[-2px]`}
-//           blur="blur(10px)"
-//         >
-//           <div className="whitespace-pre-wrap leading-relaxed text-white">
-//             {text}
-//           </div>
-//           <div className="flex items-center justify-between mt-3 pt-2 border-t border-white/10">
-//             <div className="text-xs opacity-60">
-//               {formatTime(timestamp)}
-//             </div>
-//             <div className="text-xs opacity-60">
-//               {isUser ? '👤 Tú' : isError ? '⚠️ Error' : '🤖 Asistente'}
-//             </div>
-//           </div>
-//         </GlassCard>
-//       </div>
-//     </div>
-//   )
-// }
-//
-// export default MessageBubble
-
-// components/Chat/MessageBubble.jsx
+// src/components/Chat/MessageBubble.jsx
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import { formatTime } from '../../utils/formatters'

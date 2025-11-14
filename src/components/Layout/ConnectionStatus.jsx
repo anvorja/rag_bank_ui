@@ -1,4 +1,4 @@
-// components/Layout/ConnectionStatus.jsx
+// src/components/Layout/ConnectionStatus.jsx
 import React from 'react'
 
 export const ConnectionStatus = ({ isConnected, isTesting, onTest }) => {

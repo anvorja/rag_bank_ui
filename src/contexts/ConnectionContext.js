@@ -1,4 +1,4 @@
-// contexts/ConnectionContext.js
+// src/contexts/ConnectionContext.js
 import { createContext } from 'react';
 
 export const ConnectionContext = createContext({

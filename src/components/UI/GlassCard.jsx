@@ -1,4 +1,4 @@
-// components/UI/GlassCard.jsx
+// src/components/UI/GlassCard.jsx
 import React from 'react'
 
 export const GlassCard = ({

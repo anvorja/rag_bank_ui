@@ -1,4 +1,4 @@
-// components/Chat/ChatContainer.jsx
+// src/components/Chat/ChatContainer.jsx
 import React from 'react'
 import MessageBubble from './MessageBubble'
 import TypingIndicator from './TypingIndicator'
