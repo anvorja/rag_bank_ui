@@ -12,7 +12,7 @@ export const Header = () => {
               <Sparkles className="w-6 h-6 text-background" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Bank BorjaM
+              Borgian Bank
             </span>
           </div>
 

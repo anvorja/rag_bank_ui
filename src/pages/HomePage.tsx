@@ -194,7 +194,7 @@ const HomePage = () => {
               ¿Listo para el <span className="text-primary">Futuro</span>?
             </h2>
             <p className="text-lg sm:text-xl text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-              Únete a más de 1 millón de usuarios que ya confían en Bank BorjaM
+              Únete a más de 1 millón de usuarios que ya confían en Borgian Bank
             </p>
             <GlassButton variant="primary" className="text-lg">
               Abrir Cuenta Gratis

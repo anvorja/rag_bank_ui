@@ -86,7 +86,7 @@ export const ChatWindow: React.FC<ChatWindowProps> = ({ isOpen, onClose }) => {
           <div>
             <h3 className="font-semibold text-sm">Asesor Financiero</h3>
             <div className="flex items-center gap-2">
-              <p className="text-xs text-muted-foreground">Bank BorjaM</p>
+              <p className="text-xs text-muted-foreground">Borgian Bank</p>
               <div className={cn(
                 'flex items-center gap-1 px-2 py-0.5 rounded-full text-xs',
                 isConnected === true ? 'bg-green-500/20 text-green-400' :

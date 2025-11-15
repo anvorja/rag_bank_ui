@@ -12,7 +12,7 @@ export const CHATBOT_CONSTANTS = {
 
 // Mensajes del sistema
 export const SYSTEM_MESSAGES = {
-  WELCOME: "¡Hola! Soy tu asesor financiero de Bank BorjaM. ¿En qué puedo ayudarte hoy?",
+  WELCOME: "¡Hola! Soy tu asesor Borgian Bank. ¿En qué puedo ayudarte hoy?",
   ERROR_NETWORK: "Error de conexión. Verifica tu internet e intenta de nuevo.",
   ERROR_TIMEOUT: "La solicitud tardó demasiado. Intenta de nuevo.",
   ERROR_RATE_LIMIT: "Demasiadas solicitudes. Espera un momento antes de intentar de nuevo.",
@@ -88,9 +88,9 @@ export const PARTICLES_CONFIG = {
 
 // Configuración de localStorage
 export const STORAGE_KEYS = {
-  CHAT_HISTORY: 'bankborjam_chat_history',
-  USER_PREFERENCES: 'bankborjam_user_preferences',
-  LAST_VISIT: 'bankborjam_last_visit',
+  CHAT_HISTORY: 'borgianbank_chat_history',
+  USER_PREFERENCES: 'borgianbank_user_preferences',
+  LAST_VISIT: 'borgianbank_last_visit',
 } as const;
 
 // Configuración de accesibilidad

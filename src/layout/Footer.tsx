@@ -11,7 +11,7 @@ export const Footer = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <Sparkles className="w-4 h-4 text-background" />
               </div>
-              <span className="text-xl font-bold">Bank BorjaM</span>
+              <span className="text-xl font-bold">Borgian Bank</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Innovación financiera que se siente viva
@@ -50,7 +50,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border/50 mt-12 pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 Bank BorjaM. Todos los derechos reservados.</p>
+          <p>© 2025 Borgian Bank. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

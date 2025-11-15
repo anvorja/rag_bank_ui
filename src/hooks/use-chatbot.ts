@@ -6,7 +6,7 @@ export const useChatbot = (): ChatbotContextType => {
   const context = useContext(ChatbotContext);
 
   if (context === undefined) {
-    throw new Error('useChatbot must be used within a CchatbotProvider');
+    throw new Error('useChatbot must be used within a chatbotProvider');
   }
 
   return context;

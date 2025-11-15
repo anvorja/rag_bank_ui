@@ -1,5 +1,5 @@
 // src/config/app.config.ts
-// Configuración centralizada para la aplicación
+
 export const API_CONFIG = {
   BASE_URL: 'http://127.0.0.1:8000/api/v1',
   ENDPOINTS: {
@@ -15,7 +15,7 @@ export const API_CONFIG = {
 
 // Configuración del entorno
 export const APP_CONFIG = {
-  NAME: 'Bank BorjaM',
+  NAME: 'Borgian Bank',
   VERSION: '1.0.0',
   ENVIRONMENT: process.env.NODE_ENV || 'development',
   IS_DEVELOPMENT: process.env.NODE_ENV === 'development',
