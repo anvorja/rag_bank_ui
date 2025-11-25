@@ -37,8 +37,13 @@ export interface ChatResponse {
       embedding_dimension: number;
       mode: string;
     };
-    retrieval_stats?: any;
+      retrieval_stats?: Record<string, unknown>;
   };
+}
+export interface StatsResponse {
+    total_queries?: number;
+    total_sessions?: number;
+    [key: string]: unknown;
 }
 
 export interface ChatRequest {
@@ -123,7 +128,7 @@ async testConnection(): Promise<boolean> {
   }
 }
   // Método para obtener estadísticas del backend
-  async getStats(): Promise<any> {
+  async getStats(): Promise<StatsResponse> {
     try {
       const response = await fetch(`${this.baseUrl}${API_CONFIG.ENDPOINTS.STATS}`, {
         headers: {
