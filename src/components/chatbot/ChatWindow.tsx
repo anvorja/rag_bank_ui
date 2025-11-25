@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { X, Send, Sparkles, Minimize2, Maximize2, Expand, Shrink } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useChat } from '@/hooks/use-chat';
-import { useConnection } from '@/providers/connection.provider';
+import { useConnection } from '@/hooks/use-connection';
 import { MessageBubble } from './MessageBubble';
 
 interface ChatWindowProps {
